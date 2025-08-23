@@ -11,7 +11,15 @@ void nullability(){
 //Para poder asignar un null a una variable de cualquier tipo es agregandole el sigo ?
 
 String? name = 'Fer';
-name = null;
+// name = null;
 
 // Nota: es importante tener un null por si el usuario no pone nada, esto es para aplicacion de flutter
+
+
+//En caso de que sea nulo podemos asignar valores por defecto
+
+String defecto = name ?? 'Invitado';
+
+
+
 }
